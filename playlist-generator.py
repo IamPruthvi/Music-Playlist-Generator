@@ -1,7 +1,7 @@
 from os import listdir
 from os.path import isfile, join
 from mutagen.mp3 import MP3
-music_path = 'D:\\Music\\lofi\\lofi\\'
+music_path = 'D:\\Music\\lofi\\lofi\\' # Music file path
 music_names = [f for f in listdir(music_path) if isfile(join(music_path, f))]
 for music in music_names:
     k = music.split('.')
